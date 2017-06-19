@@ -42,6 +42,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="websocket-sharp, Version=1.0.2.59611, Culture=neutral, PublicKeyToken=5660b08a1845a91e, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebSocketSharp.1.0.3-rc11\lib\websocket-sharp.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Apis\btce\BtceApi.cs" />
@@ -61,6 +64,28 @@
     <Compile Include="Apis\btce\TransHistory.cs" />
     <Compile Include="Apis\btce\UnixTime.cs" />
     <Compile Include="Apis\btce\UserInfo.cs" />
+    <Compile Include="Apis\huobi\Assert.cs" />
+    <Compile Include="Apis\huobi\Huobi.cs" />
+    <Compile Include="Apis\huobi\HuobiSyncWebRequest.cs" />
+    <Compile Include="Apis\huobi\HuobiTypes.cs" />
+    <Compile Include="Apis\huobi\IMarket.cs" />
+    <Compile Include="Apis\huobi\MarketBase.cs" />
+    <Compile Include="Apis\huobi\Numerical.cs" />
+    <Compile Include="Apis\huobi\RestHelpers.cs" />
+    <Compile Include="Apis\huobi\SynchronousJsonWebRequest.cs" />
+    <Compile Include="Apis\huobi\UnixTime.cs" />
+    <Compile Include="Apis\okcn\DataFilter.cs" />
+    <Compile Include="Apis\okcn\Depth.cs" />
+    <Compile Include="Apis\okcn\HistoryFile.cs" />
+    <Compile Include="Apis\okcn\OKCoin.cs" />
+    <Compile Include="Apis\okcn\Order.cs" />
+    <Compile Include="Apis\okcn\Ticker.cs" />
+    <Compile Include="Apis\okcn\Trade.cs" />
+    <Compile Include="Apis\okcn\UserInfo.cs" />
+    <Compile Include="Apis\okcn\Utils.cs" />
+    <Compile Include="Apis\okcn\WebClientPlus.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Convert.cs" />
     <Compile Include="ERate.cs" />
     <Compile Include="exchange.cs" />
@@ -68,7 +93,7 @@
     <Compile Include="Record.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Apis\huobi\" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

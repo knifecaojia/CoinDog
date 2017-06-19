@@ -28,7 +28,7 @@ namespace ExchangeAPI
         /// 已取消
 
         /// </summary>
-        ORDER_STATE_CANCELED = 3,
+        ORDER_STATE_CANCELED = 3
 
     }
     /// <summary>
@@ -43,7 +43,7 @@ namespace ExchangeAPI
         /// <summary>
         /// 卖单
         /// </summary>
-        ORDER_TYPE_SELL,
+        ORDER_TYPE_SELL
 
     }
     /// <summary>
@@ -273,9 +273,14 @@ namespace ExchangeAPI
         btc_cny,
         btc_usd,
         btc_eur,
+        ltc_cny,
         ltc_btc,
         ltc_usd,
         cny_usd,
+        eth_cny,
+        eth_usd,
+        eth_btc,
+        eth_ltc,
         Unknown
     }
 }

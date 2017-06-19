@@ -5,3 +5,5 @@ M:\BTC Codes\CoinDog\BrickDog\ExchangeAPI\bin\Debug\Newtonsoft.Json.xml
 M:\BTC Codes\CoinDog\BrickDog\ExchangeAPI\obj\Debug\ExchangeAPI.dll
 M:\BTC Codes\CoinDog\BrickDog\ExchangeAPI\obj\Debug\ExchangeAPI.pdb
 M:\BTC Codes\CoinDog\BrickDog\ExchangeAPI\obj\Debug\ExchangeAPI.csprojResolveAssemblyReference.cache
+M:\BTC Codes\CoinDog\BrickDog\ExchangeAPI\bin\Debug\websocket-sharp.dll
+M:\BTC Codes\CoinDog\BrickDog\ExchangeAPI\bin\Debug\websocket-sharp.xml

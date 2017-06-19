@@ -33,6 +33,9 @@ namespace ExchangeAPI
                 case "btce":
                     ticker = MarketConvert.ConvertTicker(BtcE.BtceApi.GetTicker(BtcE.BtcePairHelper.FromString(tp.ToString()))) ;
                     break;
+                case "okcn":
+                    ticker = MarketConvert.ConvertTicker(OKCoinAPI.OKCoin.GetTicker(MarketConvert.ConvertTickType(tp)));
+                    break;
 
             }
             

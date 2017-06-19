@@ -1,0 +1,10 @@
+M:\BTC Codes\CoinDog\BrickDog\MainGUI\bin\Debug\MainGUI.exe.config
+M:\BTC Codes\CoinDog\BrickDog\MainGUI\bin\Debug\MainGUI.exe
+M:\BTC Codes\CoinDog\BrickDog\MainGUI\bin\Debug\MainGUI.pdb
+M:\BTC Codes\CoinDog\BrickDog\MainGUI\bin\Debug\Newtonsoft.Json.dll
+M:\BTC Codes\CoinDog\BrickDog\MainGUI\bin\Debug\Newtonsoft.Json.xml
+M:\BTC Codes\CoinDog\BrickDog\MainGUI\obj\Debug\MainGUI.csprojResolveAssemblyReference.cache
+M:\BTC Codes\CoinDog\BrickDog\MainGUI\obj\Debug\MainGUI.Properties.Resources.resources
+M:\BTC Codes\CoinDog\BrickDog\MainGUI\obj\Debug\MainGUI.csproj.GenerateResource.Cache
+M:\BTC Codes\CoinDog\BrickDog\MainGUI\obj\Debug\MainGUI.exe
+M:\BTC Codes\CoinDog\BrickDog\MainGUI\obj\Debug\MainGUI.pdb
